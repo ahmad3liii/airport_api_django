@@ -1,0 +1,5 @@
+<ul>
+{% for singleairport in airports %}
+<li> {{singleairport.name}} {{singleairport.address}} {{singleairport.capacityOfAirplans}} {{singleairport.capacityOfPassengers}}  {{singleairport.evaluation}}
+{% endfor %}
+<ul>
